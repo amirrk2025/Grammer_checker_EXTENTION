@@ -7,7 +7,7 @@ document.getElementById('checkGrammarBtn').addEventListener('click', async () =>
     }
 
     try {
-        const response = await fetch('http://localhost:3000/api/check-grammar', {  // آدرس صحیح
+        const response = await fetch('http://localhost:3000/api/check-grammar', 
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
